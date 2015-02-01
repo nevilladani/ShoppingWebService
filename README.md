@@ -1,4 +1,4 @@
-# eCommerce System
+# eCommerce System SOA
 Demonstration of service-oriented architecture (SOA) over eCommerce system.
 
 ## Implemented Features
@@ -11,7 +11,7 @@ Demonstration of service-oriented architecture (SOA) over eCommerce system.
 7. Asynchronous Services - Supported services should be asynchronous. This can be implemented either using AJAX or performed using request/response queuing techniques.
 
 ## Note
-Basic working code taken from eCommerce [ECommerceSystem](https://github.com/phoenixjiangnan/ECommerceSystem). Implemented SOAP based web services over it.
+Basic working code taken from [ECommerceSystem](https://github.com/phoenixjiangnan/ECommerceSystem). Implemented SOAP based web services over it.
 
 ## License
 
