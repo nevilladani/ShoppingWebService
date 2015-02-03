@@ -28,9 +28,9 @@ static String[] computersMap;
 static DBServiceProxy proxy = new DBServiceProxy();
 
 	static{
-		proxy.setEndpoint("http://localhost:8095/ECommerceSysService/services/DBService");
+		proxy.setEndpoint("http://localhost:8095/ECommerceSysService/services/DBService"); // Valid URL
 		
-		System.out.println("blahblah........................llllll");
+		//System.out.println("blahblah........................llllll");
 		String[] compList2=null;
 		
 		

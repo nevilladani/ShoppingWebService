@@ -23,7 +23,7 @@ static ArrayList<String> computerList = new ArrayList<String>();
 static String[] computerArr2;
 static Connection conn = null;
 	static{
-		System.out.println("asasasa");
+		//System.out.println("asasasa");
 		
         PreparedStatement ps = null;
         ResultSet rs = null;
@@ -79,14 +79,14 @@ static Connection conn = null;
 	public static String[] getBrand(String brand) {
 		 ArrayList<String> computerListBrand = new ArrayList<String>();
 		String[] computerArrBrand=null;
-		System.out.println("zzzzzzzzzzzzzz");
+		//System.out.println("zzzzzzzzzzzzzz");
 		for(int i=0;i<computerListAll.size();i++ )
 		{
 			if(computerListAll.get(i)[2].equalsIgnoreCase(brand))
 			{
 				String compStringBrand = computerListAll.get(i)[0]+"@@"+computerListAll.get(i)[1]+"@@"+computerListAll.get(i)[2]+"@@"+computerListAll.get(i)[3]+"@@"+computerListAll.get(i)[4];
 				computerListBrand.add(compStringBrand);
-				System.out.println("zzzzzzaaaaaaaaaaaa");
+				//System.out.println("zzzzzzaaaaaaaaaaaa");
 			}
 		}
 		//System.out.println("sdddddddddd"+computerListBrand.size());
@@ -114,14 +114,14 @@ static Connection conn = null;
 	public static String[] getName(String name) {
 		 ArrayList<String> computerListName = new ArrayList<String>();
 		String[] computerArrName=null;
-		System.out.println("lololololololololololol");
+		//System.out.println("lololololololololololol");
 		for(int i=0;i<computerListAll.size();i++ )
 		{
 			if((computerListAll.get(i)[1].toLowerCase()).contains(name.toLowerCase()))
 			{
 				String compStringName = computerListAll.get(i)[0]+"@@"+computerListAll.get(i)[1]+"@@"+computerListAll.get(i)[2]+"@@"+computerListAll.get(i)[3]+"@@"+computerListAll.get(i)[4];
 				computerListName.add(compStringName);
-				System.out.println("zzzzzzaaaaaaaaaaaa");
+				//System.out.println("zzzzzzaaaaaaaaaaaa");
 			}
 		}
 		//System.out.println("sdddddddddd"+computerListBrand.size());

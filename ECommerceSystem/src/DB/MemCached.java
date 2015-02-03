@@ -31,7 +31,7 @@ public class MemCached {
             // AddrUtil.getAddresses("server1:11211 server2:11211")
  
             memcacheClient = new MemcachedClient(
-                    AddrUtil.getAddresses("192.168.0.20:11211"));
+                    AddrUtil.getAddresses("192.168.0.20:11211")); // Memcached server URL
         } catch (IOException ex) {
             Logger.getLogger(MemCached.class.getName()).log(Level.SEVERE, null, ex);
         }

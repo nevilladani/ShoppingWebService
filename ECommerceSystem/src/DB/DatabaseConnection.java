@@ -9,11 +9,11 @@ public class DatabaseConnection {
     public Connection conn;
     public ResultSet res;
     
-    final String DB_URL="jdbc:mysql://localhost:3306/ecommerce";
+    final String DB_URL="jdbc:mysql://localhost:3306/ecommerce"; // Valid URL
 
           //  Database credentials
-    final String USER = "root";
-    final String PASS = "pass123";
+    final String USER = ""; // Username
+    final String PASS = ""; // Password
     public DatabaseConnection(){
         
     }

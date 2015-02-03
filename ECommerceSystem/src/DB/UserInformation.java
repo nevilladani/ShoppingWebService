@@ -22,15 +22,15 @@ public class UserInformation {
 	
 	
 	public String login(String userid,String pass) throws SQLException{
-		System.out.println("zzzzzzzzzzzzzz");
+		//System.out.println("zzzzzzzzzzzzzz");
 		String ss=null;
 		//ss = proxy.login(userid, pass);
 		
 		try {
-			proxy.setEndpoint("http://localhost:8095/ECommerceSysService/services/DBService");
+			proxy.setEndpoint("http://localhost:8095/ECommerceSysService/services/DBService"); // Valid URL
 			ss = proxy.login(userid, pass);
 		} catch (RemoteException e) {
-			System.out.println("jjjjjjj");
+			//System.out.println("jjjjjjj");
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
@@ -45,7 +45,7 @@ public class UserInformation {
 		System.out.println("getting user data");
 		String data = null;
 		try {
-			proxy.setEndpoint("http://localhost:8095/ECommerceSysService/services/DBService");
+			proxy.setEndpoint("http://localhost:8095/ECommerceSysService/services/DBService"); // Valid URL
 			
 			data = proxy.userData(userid);
 		} catch (RemoteException e) {

@@ -7,9 +7,9 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class JdbcUtils {
-	private static String user = "root";
-	private static String password="pass123";
-	private static String url = "jdbc:mysql://localhost:3306/ecommerce";
+	private static String user = ""; // Username
+	private static String password=""; // Password
+	private static String url = "jdbc:mysql://localhost:3306/ecommerce"; // Valid URL
     
     private JdbcUtils(){
 		
